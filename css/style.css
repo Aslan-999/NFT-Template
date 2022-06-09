@@ -1,0 +1,161 @@
+* {
+  outline: none;
+}
+
+#header {
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+#header .logo {
+  width: 20%;
+}
+
+#header .nav-menu {
+  width: 80%;
+}
+
+#header .nav-menu ul li a {
+  padding: 5px 25px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#header .nav-menu ul li:last-child {
+  display: block;
+  background-color: #FE887A;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 15px;
+  margin-left: 40px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+#header .nav-menu ul li:last-child:hover {
+  background-color: #03A4ED;
+}
+
+#header .nav-icon {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  #header {
+    margin-top: 20px;
+  }
+  #header .logo {
+    width: 20%;
+  }
+  #header .nav-icon {
+    display: block;
+  }
+  #header .nav-icon a {
+    text-decoration: none;
+    color: black;
+  }
+  #header .nav-icon a i {
+    font-size: 25px;
+    margin: 10px 15px;
+  }
+  #header .nav-menu {
+    display: none;
+    width: 85%;
+    text-align: end;
+  }
+}
+
+.nft {
+  width: 100%;
+  height: 85vh;
+  background-image: url(/images/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nft .Text-area {
+  border: 2px solid red;
+  margin-top: 10rem;
+}
+
+.nft .Text-area h3 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #FE887A;
+}
+
+.nft .Text-area h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 70px;
+  color: black;
+  margin-top: 20px;
+}
+
+.nft .Text-area p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 25px;
+}
+
+.nft .down-buttons .btn {
+  height: 10%;
+  display: block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #03A4ED;
+  border-radius: 100px;
+}
+
+.nft .down-buttons .link-area {
+  width: 40%;
+}
+
+.nft .down-buttons .link-area i {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-color: #FE887A;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.nft .down-buttons .link-area .clck {
+  display: block;
+  margin: 5px 0 0 10px;
+}
+
+.Tools {
+  margin-top: 50px;
+}
+
+.Tools .Top-text {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.Tools .container {
+  border: 2px solid red;
+}
+
+.Tools .container .row {
+  border: 2px solid green;
+}
+
+.Tools .container .row .tools-boxes {
+  border: 2px solid black;
+}
+
+.Tools .container .row .tools-boxes .box {
+  border: 2px solid green;
+}
+/*# sourceMappingURL=style.css.map */
